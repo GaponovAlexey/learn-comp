@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import s from '../../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
 
       <h1 className='text-red-900 text-2xl'>start</h1>
       <h1 className='text-red-900 text-2xl font-mac'>start</h1>
+      <h1 className={s.red}>start</h1>
       <a href='#!'>link</a>
     </div>
   )
