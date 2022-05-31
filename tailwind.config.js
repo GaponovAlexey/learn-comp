@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       ubu: ['"Ubuntu"', 'sans-serif'],
+      mac: ['"Macondo"', 'sans-serif'],
     },
   },
   plugins: [],
