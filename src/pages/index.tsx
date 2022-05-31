@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='#!' />
       </Head>
 
-      <h1>start</h1>
+      <h1 className='text-red-900 text-2xl'>start</h1>
     </div>
   )
 }
